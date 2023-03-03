@@ -1,0 +1,36 @@
+.paginate {
+  position: relative;
+  margin-top: 20px;
+}
+.pageNumbers {
+  list-style: none;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.pageNumbers li {
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.pageNumbers li.active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.pageNumbers li button:hover {
+  background-color: black;
+  color: white;
+}
+.pageNumbers li button:focus {
+  outline: none;
+}

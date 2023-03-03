@@ -1,0 +1,66 @@
+.searchBar {
+  position: relative;
+  margin-top: 125px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(135deg, #f0501d 70%, black 50%);
+}
+.filterContainer {
+  width: 250px;
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.filterContainer h4 {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.filterContainer select {
+  margin-left: 10px;
+}
+.filterContainer button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.filterContainer button:hover {
+  background-color: black;
+  color: white;
+}
+.filterContainer button:focus {
+  outline: none;
+}
+.orderContainerName {
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.orderContainerName h4 {
+  padding: 5px;
+}
+.orderContainerName select {
+  margin-left: 30px;
+}
+.orderContainerAttack {
+  margin: 2px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.orderContainerAttack h4 {
+  padding: 5px;
+}
+.orderContainerAttack select {
+  margin-left: 30px;
+}
+form .searchInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  align-self: center;
+}

@@ -1,0 +1,21 @@
+.appContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.allContainer {
+  border: 1px solid black;
+  background-color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+.imgError {
+  height: 54vh;
+}

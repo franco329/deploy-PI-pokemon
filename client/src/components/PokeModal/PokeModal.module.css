@@ -1,0 +1,158 @@
+.allContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.buttonClose {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border-radius: 50%;
+  padding: 5px 10px;
+  background: black;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+.modalContainer {
+  width: 500px;
+  background: #fff;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+}
+.statContainerTitle {
+  display: flex;
+  align-items: center;
+  /* font-size: 24px; */
+  font-weight: 700;
+  color: white;
+  margin-left: -5%;
+  padding: 0 10px;
+  width: 110%;
+  height: 65px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #f0501d 60%, black 40%);
+}
+.imageTitle {
+  width: 45px;
+  /* min-height: 60px; */
+  margin-right: 20px;
+}
+.imgContent {
+  max-height: 250px;
+  min-width: 380px;
+  object-fit: contain;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+}
+.pokeIdP {
+  width: 180px;
+  color: black;
+}
+.stats {
+  display: flex;
+  width: 100%;
+}
+.statsLeft,
+.statsRight {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 20px;
+}
+.statsLeft > p,
+.statsRight > p {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 10px;
+  border-bottom: 1px solid #90979f38;
+}
+.baseStats {
+  display: flex;
+  width: 100%;
+  background: #ffffff;
+}
+.baseStats > div {
+  text-align: center;
+  width: 100%;
+}
+.stats {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 45px;
+  background: #5a5a58;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.stats:nth-child(1),
+.stats:nth-child(2),
+.stats:nth-child(3) {
+  border-bottom: 1px solid white;
+}
+.water {
+  background-color: var(--color-water);
+}
+.grass {
+  background-color: var(--color-grass);
+}
+.poison {
+  background-color: var(--color-poison);
+}
+.fire {
+  background-color: var(--color-fire);
+}
+.bug {
+  background-color: var(--color-bug);
+}
+.dragon {
+  background-color: var(--color-dragon);
+}
+.flying {
+  background-color: var(--color-flying);
+}
+.ground {
+  background-color: var(--color-ground);
+}
+.steel {
+  background-color: var(--color-steel);
+}
+.psychic {
+  background-color: var(--color-psychic);
+}
+.ice {
+  background-color: var(--color-ice);
+}
+.ghost {
+  background-color: var(--color-ghost);
+}
+.normal {
+  background-color: var(--color-normal);
+}
+.rock {
+  background-color: var(--color-rock);
+}
+.electric {
+  background-color: var(--color-electric);
+}
+.fighting {
+  background-color: var(--color-fighting);
+}
+.fairy {
+  background-color: var(--color-fairy);
+}
+.dark {
+  background-color: var(--color-dark);
+}

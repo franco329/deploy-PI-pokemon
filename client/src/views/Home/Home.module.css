@@ -1,0 +1,12 @@
+.home {
+  background: linear-gradient(
+    to bottom right,
+    black,
+    #f0501d,
+    #f0501d,
+    #f0501d,
+    #00d8ff,
+    #00d8ff,
+    #00d8ff
+  );
+}

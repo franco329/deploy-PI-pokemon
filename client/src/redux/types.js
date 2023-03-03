@@ -1,0 +1,9 @@
+export const GET_ALL_POKEMONS = "GET_ALL_POKEMONS";
+export const GET_POKEMON_ID = "GET_POKEMON_ID";
+export const PAGINATE_POKES = "PAGINATE_POKES";
+export const GET_TYPES = "GET_TYPES";
+export const ORDER_NAME = "ORDER_NAME";
+export const ORDER_ATTACK = "ORDER_ATTACK";
+export const FILTER_SEARCH = "FILTER_SEARCH";
+export const FILTER_TYPES = "FILTER_TYPES";
+export const CHANGE_STATE_MODAL = "CHANGE_STATE_MODAL";
