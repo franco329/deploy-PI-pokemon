@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { getAllPokemons, getTypes } from "./redux/actions";
 import Loader from "./components/Loader/Loader";
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://deploy-pi-pokemon-production.up.railway.app/";
 
 function App() {
   const dispatch = useDispatch();
