@@ -11,7 +11,7 @@ const server = express();
 
 server.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://deploy-pi-pokemon.vercel.app",
     credentials: true,
   })
 );
